@@ -1,4 +1,13 @@
+var Title = React.createClass({
+	render: function() {
+		return (
+			<h1>Title</h1>
+		)
+	}
+});
+
+
 ReactDOM.render(
-	<h1>Hello, world!</h1>,
+	<Title />,
 	document.getElementById('content')
 );
